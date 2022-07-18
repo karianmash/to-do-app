@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css" />
+    <title>To do list</title>
+    <style>
+      input,
+      textarea {
+        font-size: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Title goes here. -->
+      <div class="title">
+        <div class="top">
+          <div class="network">
+            <i class="fas fa-signal"></i>
+          </div>
+          <div class="camera"></div>
+          <div class="battery">
+            <i class="fas fa-battery-full"></i>
+          </div>
+        </div>
+        <div class="text">
+          <h1>TO-DO APP</h1>
+        </div>
+      </div>
+      <!-- The input section. -->
+      <div class="addSection">
+        <input
+          type="text"
+          class="taskInput"
+          placeholder="What are you planning?"
+        />
+        <button class="add">ADD</button>
+      </div>
+      <!-- Items listed goes here-->
+      <div class="list"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
